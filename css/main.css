@@ -1,0 +1,22 @@
+/* 
+Conveccion de buenas practicas para crear los estilos
+1. Posicionamiento.
+2. Modelo de caja (Box Model)
+3. Tipografia.
+4. Visual.
+5. Otros.
+*/
+
+/* Se agregan los estilos generales al proyecto */
+
+/* Con este bloque se reinician los estilos de los navegadores */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;  /* hace que el scroll de la pagina ocasionado por alguna accion (Ej. boton) se suave y evita los saltos abruptos */
+}
