@@ -96,3 +96,51 @@ nav .nav-profile-container a{
     font-size: 2rem;
     border-bottom: 0.1rem solid black;
 }
+
+/* sección del Home */
+
+.home-main{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i.imgur.com/xuB77WW.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-main-title{
+    place-self: center;
+    text-align: center;
+    width: 80%;
+    max-width: 80rem;
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 1rem;
+    color: white;
+}
+
+.home-main-btn{
+    justify-self: center;
+    align-self: flex-start;
+    width: 12rem;
+    height: 4rem;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #47cfac;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.home-main-btn:hover{
+    color: white;
+    box-shadow: 0 0 1rem white;
+}
+
+.home-main-btn:active{
+    border: 1px rgb(158, 157, 157) solid;
+}
